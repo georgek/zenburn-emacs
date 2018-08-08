@@ -309,6 +309,7 @@ the just-introduced bindings."
 ;;;;; display-fill-column-indicator
    `(fill-column-indicator ((t :foreground ,zenburn-bg-05 :weight semilight)))
 ;;;;; eldoc
+   ;; `(eldoc-highlight-function-argument ((t (:weight bold))))
    `(eldoc-highlight-function-argument ((t (:foreground ,zenburn-yellow :weight bold))))
 ;;;;; eww
    '(eww-invalid-certificate ((t (:inherit error))))
@@ -349,7 +350,7 @@ the just-introduced bindings."
    `(trailing-whitespace ((t (:background ,zenburn-red))))
    `(vertical-border ((t (:foreground ,zenburn-fg))))
 ;;;;; font lock
-   `(font-lock-builtin-face ((t (:foreground ,zenburn-fg :weight bold))))
+   `(font-lock-builtin-face ((t (:foreground ,zenburn-blue-1))))
    `(font-lock-comment-face ((t (:foreground ,zenburn-comment))))
    `(font-lock-comment-delimiter-face ((t (:foreground ,zenburn-comment-delimiter))))
    `(font-lock-constant-face ((t (:foreground ,zenburn-constant))))
@@ -1671,9 +1672,11 @@ the just-introduced bindings."
    `(org-headline-done ((t (:foreground ,zenburn-green+3))))
    `(org-hide ((t (:foreground ,zenburn-bg))))
    `(org-level-1 ((t (:inherit zenburn-variable-pitch :foreground ,zenburn-orange
+                               :weight bold
                                ,@(when zenburn-scale-org-headlines
                                    (list :height zenburn-height-plus-4))))))
    `(org-level-2 ((t (:inherit zenburn-variable-pitch :foreground ,zenburn-green+4
+                               :weight bold
                                ,@(when zenburn-scale-org-headlines
                                    (list :height zenburn-height-plus-3))))))
    `(org-level-3 ((t (:inherit zenburn-variable-pitch :foreground ,zenburn-blue-1
