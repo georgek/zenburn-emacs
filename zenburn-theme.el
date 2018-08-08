@@ -247,7 +247,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(trailing-whitespace ((t (:background ,zenburn-red))))
    `(vertical-border ((t (:foreground ,zenburn-fg))))
 ;;;;; font lock
-   `(font-lock-builtin-face ((t (:foreground ,zenburn-fg :weight bold))))
+   `(font-lock-builtin-face ((t (:foreground ,zenburn-blue-1))))
    `(font-lock-comment-face ((t (:foreground ,zenburn-green))))
    `(font-lock-comment-delimiter-face ((t (:foreground ,zenburn-green-2))))
    `(font-lock-constant-face ((t (:foreground ,zenburn-green+4))))
@@ -550,6 +550,8 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(egg-diff-file-header ((t (:foreground ,zenburn-yellow-2))))
    `(egg-section-title ((t (:foreground ,zenburn-yellow))))
    `(egg-stash-mono ((t (:foreground ,zenburn-green+4))))
+;;;;; eldoc
+   `(eldoc-highlight-function-argument ((t (:weight bold))))
 ;;;;; elfeed
    `(elfeed-log-error-level-face ((t (:foreground ,zenburn-red))))
    `(elfeed-log-info-level-face ((t (:foreground ,zenburn-blue))))
@@ -1179,9 +1181,11 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(org-headline-done ((t (:foreground ,zenburn-green+3))))
    `(org-hide ((t (:foreground ,zenburn-bg))))
    `(org-level-1 ((t (:inherit ,z-variable-pitch :foreground ,zenburn-orange
+                               :weight bold
                                ,@(when zenburn-scale-org-headlines
                                    (list :height zenburn-height-plus-4))))))
    `(org-level-2 ((t (:inherit ,z-variable-pitch :foreground ,zenburn-green+4
+                               :weight bold
                                ,@(when zenburn-scale-org-headlines
                                    (list :height zenburn-height-plus-3))))))
    `(org-level-3 ((t (:inherit ,z-variable-pitch :foreground ,zenburn-blue-1
