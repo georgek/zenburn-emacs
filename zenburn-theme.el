@@ -2134,7 +2134,7 @@ the just-introduced bindings."
 ;;;;; whitespace-mode
    `(whitespace-space ((t (:background ,zenburn-bg+1 :foreground ,zenburn-bg+1))))
    `(whitespace-hspace ((t (:background ,zenburn-bg+1 :foreground ,zenburn-bg+1))))
-   `(whitespace-tab ((t (:background ,zenburn-red-1))))
+   `(whitespace-tab ((t (:background ,zenburn-bg-1))))
    `(whitespace-newline ((t (:foreground ,zenburn-bg+1))))
    `(whitespace-trailing ((t (:background ,zenburn-red))))
    `(whitespace-line ((t (:background ,zenburn-bg :foreground ,zenburn-magenta))))
