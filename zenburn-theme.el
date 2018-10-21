@@ -568,6 +568,7 @@ the just-introduced bindings."
    `(company-scrollbar-fg ((t (:background ,zenburn-bg-1))))
    `(company-scrollbar-bg ((t (:background ,zenburn-bg+2))))
    `(company-preview-common ((t (:foreground ,zenburn-green+2 :background ,zenburn-bg-1))))
+   `(company-template-field ((t (:foreground ,zenburn-yellow :background ,zenburn-bg-1))))
 ;;;;; corfu
    `(corfu-default ((t (:foreground ,zenburn-fg :background ,zenburn-bg+1))))
    `(corfu-current ((t (:foreground ,zenburn-fg :background ,zenburn-bg-1))))
