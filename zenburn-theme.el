@@ -2086,7 +2086,7 @@ the just-introduced bindings."
    `(undo-tree-visualizer-register-face ((t (:foreground ,zenburn-yellow))))
    `(undo-tree-visualizer-unmodified-face ((t (:foreground ,zenburn-cyan))))
 ;;;;; vertico
-   `(vertico-current ((t (:foreground ,zenburn-yellow :weight bold :underline t))))
+   `(vertico-current ((t (:foreground ,zenburn-yellow :background ,zenburn-bg+1 :weight bold :underline nil))))
    `(vertico-multiline ((t (:foreground ,zenburn-green))))
    `(vertico-group-title ((t (:foreground ,zenburn-yellow :weight bold))))
    `(vertico-group-separator ((t (:foreground ,zenburn-green :strike-through t))))
