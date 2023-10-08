@@ -1670,7 +1670,7 @@ the just-introduced bindings."
    `(org-deadline-announce ((t (:foreground ,zenburn-red-1))))
    `(org-done ((t (:weight bold :foreground ,zenburn-green+3))))
    `(org-formula ((t (:foreground ,zenburn-yellow-2))))
-   `(org-headline-done ((t (:foreground ,zenburn-green+3))))
+   `(org-headline-done ((t (:inherit))))
    `(org-hide ((t (:foreground ,zenburn-bg))))
    `(org-level-1 ((t (:inherit zenburn-variable-pitch :foreground ,zenburn-orange
                                :weight bold
@@ -1698,7 +1698,7 @@ the just-introduced bindings."
    `(org-sexp-date ((t (:foreground ,zenburn-blue+1 :underline t))))
    `(org-special-keyword ((t (:inherit font-lock-comment-face))))
    `(org-table ((t (:foreground ,zenburn-green+2))))
-   `(org-tag ((t (:weight bold))))
+   `(org-tag ((t (:weight bold :weight bold :foreground ,zenburn-fg-1))))
    `(org-time-grid ((t (:foreground ,zenburn-orange))))
    `(org-todo ((t (:weight bold :foreground ,zenburn-red))))
    `(org-upcoming-deadline ((t (:inherit font-lock-keyword-face))))
