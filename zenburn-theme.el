@@ -2099,6 +2099,39 @@ the just-introduced bindings."
    `(vr/match-separator-face ((t (:foreground ,zenburn-red :weight bold))))
 ;;;;; volatile-highlights
    `(vhl/default-face ((t (:background ,zenburn-bg-05))))
+;;;;; vterm
+   `(vterm-color-black ((t (:foreground ,zenburn-bg
+                                       :background ,zenburn-bg-1))))
+   `(vterm-color-red ((t (:foreground ,zenburn-red-2
+                                     :background ,zenburn-red-4))))
+   `(vterm-color-green ((t (:foreground ,zenburn-green
+                                       :background ,zenburn-green+2))))
+   `(vterm-color-yellow ((t (:foreground ,zenburn-orange
+                                        :background ,zenburn-yellow))))
+   `(vterm-color-blue ((t (:foreground ,zenburn-blue-1
+                                      :background ,zenburn-blue-4))))
+   `(vterm-color-magenta ((t (:foreground ,zenburn-magenta
+                                         :background ,zenburn-red))))
+   `(vterm-color-cyan ((t (:foreground ,zenburn-cyan
+                                      :background ,zenburn-blue))))
+   `(vterm-color-white ((t (:foreground ,zenburn-fg
+                                       :background ,zenburn-fg-1))))
+   `(vterm-color-bright-black ((t (:foreground ,zenburn-bg+1
+                                              :background ,zenburn-bg))))
+   `(vterm-color-bright-red ((t (:foreground ,zenburn-red+1
+                                            :background ,zenburn-red-4))))
+   `(vterm-color-bright-green ((t (:foreground ,zenburn-green+1
+                                              :background ,zenburn-green+2))))
+   `(vterm-color-bright-yellow ((t (:foreground ,zenburn-orange
+                                               :background ,zenburn-yellow))))
+   `(vterm-color-bright-blue ((t (:foreground ,zenburn-blue+1
+                                             :background ,zenburn-blue-4))))
+   `(vterm-color-bright-magenta ((t (:foreground ,zenburn-magenta
+                                                :background ,zenburn-red))))
+   `(vterm-color-bright-cyan ((t (:foreground ,zenburn-cyan
+                                             :background ,zenburn-blue))))
+   `(vterm-color-bright-white ((t (:foreground ,zenburn-fg+1
+                                              :background ,zenburn-fg-1))))
 ;;;;; vundo
    `(vundo-node ((t (:foreground ,zenburn-fg-1))))
    `(vundo-stem ((t (:foreground ,zenburn-bg+3))))
